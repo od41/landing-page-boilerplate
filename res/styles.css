@@ -74,6 +74,11 @@ section {
   justify-content: flex-end;
 }
 
+.field-shift {
+  position: absolute;
+  left: -9999px;
+}
+
 .user-input {
   margin: 12px 0;
 }

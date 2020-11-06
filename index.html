@@ -11,6 +11,7 @@
   <meta name="og:description" content="The ART X Lagos website" property="og:description">
   <meta name="og:image" content="" property="og:image">
   <link rel="icon" href="favicon.ico">
+  <script src='https://www.google.com/recaptcha/api.js' async defer></script>
   <!-- <link type="text/css" rel="stylesheet" href="./res/bootstrap.min.css"> -->
   <link type="text/css" rel="stylesheet" href="./res/styles.css">
 </head>
@@ -21,47 +22,84 @@
     <section>
 
       <div class="header">
-        <h1 style="">New website launching soon. <br /> Sign up to be the first to know.
+        <h1>New website launching soon. <br /> Sign up to be the first to know.
         </h1>
       </div>
 
       <div class="signup-form">
-        <form class="form form-horizontal user-signup__form" name="form" novalidate=""
-          action="#urlformailchimp--remove-this" method="POST">
-          <div class="mt-table--full">
-            <div class="user-input">
-              <div class="form-group">
-                <label for=" email">Email Address</label>
-                <input type="email" name="EMAIL" class="form-control form-control__input user-signup__email"
-                  pattern="/^[a-zA-Z0-9+-_]+(\.[_a-zA-Z0-9+]+)*@[a-zA-Z0-9+-_]+(\.[a-zA-Z0-9+-_]+)*(\.[a-zA-Z]+)$/"
-                  placeholder="" aria-required="true" required="required">
-              </div>
-            </div>
+        <form action="https://artxlagos.us14.list-manage.com/subscribe/post" method="POST">
+          <input type="hidden" name="u" value="c3dd8dc2a6622e8ad415d01a4">
+          <input type="hidden" name="id" value="9e671b68d6">
 
-            <div class="user-input">
-              <div class="form-group">
-                <label for=" email">First Name</label>
-                <input type="email" name="EMAIL" class="form-control form-control__input user-signup__email"
-                  pattern="/^[a-zA-Z0-9+-_]+(\.[_a-zA-Z0-9+]+)*@[a-zA-Z0-9+-_]+(\.[a-zA-Z0-9+-_]+)*(\.[a-zA-Z]+)$/"
-                  placeholder="" aria-required="true" required="required">
-              </div>
-            </div>
 
-            <div class="user-input">
-              <div class="form-group">
-                <label for=" email">Last Name</label>
-                <input type="email" name="EMAIL" class="form-control form-control__input user-signup__email"
-                  pattern="/^[a-zA-Z0-9+-_]+(\.[_a-zA-Z0-9+]+)*@[a-zA-Z0-9+-_]+(\.[a-zA-Z0-9+-_]+)*(\.[a-zA-Z]+)$/"
-                  placeholder="" aria-required="true" required="required">
-              </div>
-            </div>
+          <!-- people should not fill these in and expect good things -->
+          <div class="field-shift" aria-label="Please leave the following three fields empty">
+            <label for="b_name">Name: </label>
+            <input type="text" name="b_name" tabindex="-1" value="" placeholder="Freddie" id="b_name">
 
-            <div class="submit-button-container">
-              <button type="submit" class="submit-button"><span>SUBMIT</span></button>
-            </div>
+            <label for="b_email">Email: </label>
+            <input type="email" name="b_email" tabindex="-1" value="" placeholder="youremail@gmail.com" id="b_email">
+
+            <label for="b_comment">Comment: </label>
+            <textarea name="b_comment" tabindex="-1" placeholder="Please comment" id="b_comment"></textarea>
           </div>
+
+          <div id="mergeTable" class="mergeTable">
+
+
+            <div class="mergeRow dojoDndItem mergeRow-email user-input" id="mergeRow-0">
+              <div class="form-group">
+                <label for="MERGE0">Email Address
+                  <!-- <span class="req asterisk">*</span> -->
+                </label>
+                <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+              </div>
+            </div>
+
+
+
+            <div class="mergeRow dojoDndItem mergeRow-text user-input" id="mergeRow-1">
+              <div class="form-group">
+                <label for="MERGE1">First Name</label>
+                <input type="text" name="MERGE1" id="MERGE1" size="25" value="">
+              </div>
+            </div>
+
+
+
+            <div class="mergeRow dojoDndItem mergeRow-text user-input" id="mergeRow-2">
+              <div class="form-group">
+                <label for="MERGE2">Last Name
+                  <!-- <span class="req asterisk">*</span> -->
+                </label>
+                <input type="text" name="MERGE2" id="MERGE2" size="25" value="">
+              </div>
+
+            </div>
+
+
+            <!-- <div class="mergeRow dojoDndItem mergeRow-imageurl" id="mergeRow-5">
+              <label for="MERGE5">Image URL</label>
+              <div class="field-group">
+                <input type="url" autocapitalize="off" autocorrect="off" name="MERGE5" id="MERGE5" size="25" value="">
+
+
+              </div>
+
+            </div> -->
+
+          </div>
+
+          <div class="submit_container clear submit-button-container">
+            <input type="submit" class="formEmailButton submit-button" name="submit" value="Submit">
+          </div>
+          <input type="hidden" name="ht" value="0f12cbfb77a5429323ef97988db75c948597e493:MTYwNDY3OTU5NS4zMjcx">
+          <input type="hidden" name="mc_signupsource" value="hosted">
         </form>
+
       </div>
+
+
     </section>
   </div>
 
