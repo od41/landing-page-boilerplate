@@ -124,6 +124,10 @@ section {
   font-size: 48px;
 }
 
+.submit-button:focus {
+  outline: none;
+}
+
 
 .top-right img,
 .bottom-left img {
