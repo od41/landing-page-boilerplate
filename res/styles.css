@@ -133,6 +133,10 @@ section {
   outline: none;
 }
 
+.submit-button:hover {
+  cursor: pointer;
+}
+
 
 .top-right img,
 .bottom-left img {
